@@ -74,3 +74,18 @@
   </footer>
 </body>
 </html>
+/* Remove margin/padding around the image */
+header img, .header-image {
+  display: block;      /* Removes inline spacing */
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;  /* Ensure no background color */
+}
+
+/* If the image container has extra space or background */
+.header-container, header {
+  margin: 0;
+  padding: 0;
+  background-color: #5a6a3c; /* Example olive green - adjust to your exact color */
+}
